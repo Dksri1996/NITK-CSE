@@ -5,7 +5,7 @@ Steps-1)Install XAMPP on your system(preferably UBUNTU)
       
         To find htdocs folder, computer--->opt--->lampp--->htdocs
         
-        (you have to paste NIT-CSE Folder inside htdocs folder)
+        (you have to paste NIT-CSE and imup Folder inside htdocs folder)
       3)Open Terminal on ubuntu and give following series of command
       ->cd /opt/lampp
       ->sudo ./manager-linux-x64.run
