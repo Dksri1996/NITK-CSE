@@ -39,52 +39,17 @@ software used----XAMPP(Provides tools--Apache server and Mysql database)
 Tools------------a)Apache Server
                  b)Mysql database
 
-CONTROL FLOW DESCRIPTION          
-     -----------------------------------------------------------------------------------------------------------------------
-     |  FRONT END                                                                                                          |
-     |   index.php<--->program.php<---->course.php<---->achievements.php<--->research.php<-->events.php<--->people.php     |
-     |       |              |               |                    |                     |          |             |          |
-     |       |              |               |                    |                     |          |             |          |
-     |       |              |               |                    |                     |          |             |          |
-     |       |              ------------------->         <-----------------------------------------------------------------|
-     |       --->styles.css,Style1.css,view.css,css/style.css,css/style1.css,css1/style.css<-------------------------------|
-     |                                                                                                                     |
-     ----------------------------------------------------------------------------------------------------------------------
-                                                      ^^^
-                                                      |||
-                                                      |||
-                                                      |||
-                                                      |||
-                                                      |||
-                                                      VVV
-     
-     -----------------------------------------------------------------------------------------------------------------------
-     |                                                                                                                     |
-     |       --->styles.css,Style1.css,view.css,css/style.css,css/style1.css,css1/style.css<-----------                    |
-     |       |                   |                  |                            |                     |                   |
-     |       |                   |                  |                            |                     |                   |
-     |       ------------->insert.php<---------->update.php<----------------->delete.php<---------------                   |
-     |                                                |                                                                    |
-     |                                                |                                                                    |
-     |                                                |                                                                    |
-     |                                         database("nandy.sql")                                                       |
-     |  BackEnd                                                                                                            |
-     ----------------------------------------------------------------------------------------------------------------------              
-                                                                              
-                                                      
-                    #In the developed web pages, one can navigate from any html page to any 
-                    other html page directly through navigation bar on the top.  
-                    
-     # For login---There are two type of login
-                   a)admin login------can change and update entire site and datbase.
-                   b)faculty login----can view and update their profile over the site.
+
+# For login---There are two type of login
+                 a)admin login------can change and update entire site and datbase.
+                 b)faculty login----can view and update their profile over the site.
                    
-                   c)Login and password for admin in table--"Admin"
+                 c)Login and password for admin in table--"Admin"
                    sample--username=Admin
                            password=12345
-                     
-                     login and password for faculty in table--"h_faculty"
-                     sample---username=Annappa
-                              pssword=1234
+                           
+                   login and password for faculty in table--"h_faculty"
+                   sample---username=Annappa
+                            password=1234
                     
 
